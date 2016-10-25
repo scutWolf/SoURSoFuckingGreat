@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BBC0701DB9D34400BD42E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBC06F1DB9D34400BD42E9 /* main.m */; };
+		79BBC0731DB9D34400BD42E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBC0721DB9D34400BD42E9 /* AppDelegate.m */; };
+		79BBC0791DB9D34400BD42E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BBC0771DB9D34400BD42E9 /* Main.storyboard */; };
+		79BBC07B1DB9D34400BD42E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BBC07A1DB9D34400BD42E9 /* Assets.xcassets */; };
+		79BBC07E1DB9D34400BD42E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BBC07C1DB9D34400BD42E9 /* LaunchScreen.storyboard */; };
+		79BBC0871DB9D48D00BD42E9 /* GreatDrawingViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79BBC0861DB9D48D00BD42E9 /* GreatDrawingViewController.mm */; };
+		79BBC08A1DBA55D300BD42E9 /* GREAT_BODY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79BBC0881DBA55D300BD42E9 /* GREAT_BODY.jpg */; };
+		79BBC08B1DBA55D300BD42E9 /* GREAT_HAND.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79BBC0891DBA55D300BD42E9 /* GREAT_HAND.jpg */; };
+		79BBC08E1DBB0EE200BD42E9 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBC08D1DBB0EE200BD42E9 /* UIImage+Rotate.m */; };
+		79DF681B1DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DF681A1DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79BBC06B1DB9D34400BD42E9 /* SoURSoFuckingGreat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoURSoFuckingGreat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BBC06F1DB9D34400BD42E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79BBC0711DB9D34400BD42E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79BBC0721DB9D34400BD42E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79BBC0781DB9D34400BD42E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79BBC07A1DB9D34400BD42E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79BBC07D1DB9D34400BD42E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79BBC07F1DB9D34400BD42E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BBC0851DB9D48D00BD42E9 /* GreatDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatDrawingViewController.h; sourceTree = "<group>"; };
+		79BBC0861DB9D48D00BD42E9 /* GreatDrawingViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GreatDrawingViewController.mm; sourceTree = "<group>"; };
+		79BBC0881DBA55D300BD42E9 /* GREAT_BODY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GREAT_BODY.jpg; sourceTree = "<group>"; };
+		79BBC0891DBA55D300BD42E9 /* GREAT_HAND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GREAT_HAND.jpg; sourceTree = "<group>"; };
+		79BBC08C1DBB0EE200BD42E9 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		79BBC08D1DBB0EE200BD42E9 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		79DF68191DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowSoFuckingGreatImageViewController.h; sourceTree = "<group>"; };
+		79DF681A1DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowSoFuckingGreatImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BBC0681DB9D34400BD42E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BBC0621DB9D34400BD42E9 = {
+			isa = PBXGroup;
+			children = (
+				79BBC06D1DB9D34400BD42E9 /* SoURSoFuckingGreat */,
+				79BBC06C1DB9D34400BD42E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79BBC06C1DB9D34400BD42E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BBC06B1DB9D34400BD42E9 /* SoURSoFuckingGreat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BBC06D1DB9D34400BD42E9 /* SoURSoFuckingGreat */ = {
+			isa = PBXGroup;
+			children = (
+				79BBC08C1DBB0EE200BD42E9 /* UIImage+Rotate.h */,
+				79BBC08D1DBB0EE200BD42E9 /* UIImage+Rotate.m */,
+				79BBC0851DB9D48D00BD42E9 /* GreatDrawingViewController.h */,
+				79BBC0861DB9D48D00BD42E9 /* GreatDrawingViewController.mm */,
+				79DF68191DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.h */,
+				79DF681A1DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.m */,
+				79BBC0771DB9D34400BD42E9 /* Main.storyboard */,
+				79BBC07A1DB9D34400BD42E9 /* Assets.xcassets */,
+				79BBC07C1DB9D34400BD42E9 /* LaunchScreen.storyboard */,
+				79BBC0711DB9D34400BD42E9 /* AppDelegate.h */,
+				79BBC0721DB9D34400BD42E9 /* AppDelegate.m */,
+				79BBC0881DBA55D300BD42E9 /* GREAT_BODY.jpg */,
+				79BBC0891DBA55D300BD42E9 /* GREAT_HAND.jpg */,
+				79BBC07F1DB9D34400BD42E9 /* Info.plist */,
+				79BBC06E1DB9D34400BD42E9 /* Supporting Files */,
+			);
+			path = SoURSoFuckingGreat;
+			sourceTree = "<group>";
+		};
+		79BBC06E1DB9D34400BD42E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79BBC06F1DB9D34400BD42E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BBC06A1DB9D34400BD42E9 /* SoURSoFuckingGreat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BBC0821DB9D34400BD42E9 /* Build configuration list for PBXNativeTarget "SoURSoFuckingGreat" */;
+			buildPhases = (
+				79BBC0671DB9D34400BD42E9 /* Sources */,
+				79BBC0681DB9D34400BD42E9 /* Frameworks */,
+				79BBC0691DB9D34400BD42E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoURSoFuckingGreat;
+			productName = SoURSoFuckingGreat;
+			productReference = 79BBC06B1DB9D34400BD42E9 /* SoURSoFuckingGreat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BBC0631DB9D34400BD42E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wolf;
+				TargetAttributes = {
+					79BBC06A1DB9D34400BD42E9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 79BBC0661DB9D34400BD42E9 /* Build configuration list for PBXProject "SoURSoFuckingGreat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79BBC0621DB9D34400BD42E9;
+			productRefGroup = 79BBC06C1DB9D34400BD42E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BBC06A1DB9D34400BD42E9 /* SoURSoFuckingGreat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BBC0691DB9D34400BD42E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BBC08B1DBA55D300BD42E9 /* GREAT_HAND.jpg in Resources */,
+				79BBC07E1DB9D34400BD42E9 /* LaunchScreen.storyboard in Resources */,
+				79BBC08A1DBA55D300BD42E9 /* GREAT_BODY.jpg in Resources */,
+				79BBC07B1DB9D34400BD42E9 /* Assets.xcassets in Resources */,
+				79BBC0791DB9D34400BD42E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BBC0671DB9D34400BD42E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BBC0731DB9D34400BD42E9 /* AppDelegate.m in Sources */,
+				79BBC0871DB9D48D00BD42E9 /* GreatDrawingViewController.mm in Sources */,
+				79BBC08E1DBB0EE200BD42E9 /* UIImage+Rotate.m in Sources */,
+				79BBC0701DB9D34400BD42E9 /* main.m in Sources */,
+				79DF681B1DBF43DE000AF1A3 /* ShowSoFuckingGreatImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79BBC0771DB9D34400BD42E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BBC0781DB9D34400BD42E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79BBC07C1DB9D34400BD42E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BBC07D1DB9D34400BD42E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79BBC0801DB9D34400BD42E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79BBC0811DB9D34400BD42E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BBC0831DB9D34400BD42E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoURSoFuckingGreat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.scut.SoURSoFuckingGreat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79BBC0841DB9D34400BD42E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoURSoFuckingGreat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.scut.SoURSoFuckingGreat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BBC0661DB9D34400BD42E9 /* Build configuration list for PBXProject "SoURSoFuckingGreat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BBC0801DB9D34400BD42E9 /* Debug */,
+				79BBC0811DB9D34400BD42E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BBC0821DB9D34400BD42E9 /* Build configuration list for PBXNativeTarget "SoURSoFuckingGreat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BBC0831DB9D34400BD42E9 /* Debug */,
+				79BBC0841DB9D34400BD42E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BBC0631DB9D34400BD42E9 /* Project object */;
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5Pb-Wv-Cgi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--那你他妈很棒哦-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GreatDrawingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07f-mV-xcm">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AzQ-8I-d37">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="AzQ-8I-d37" secondAttribute="trailing" id="0Se-et-MbE"/>
+                                    <constraint firstAttribute="bottom" secondItem="AzQ-8I-d37" secondAttribute="bottom" id="BMo-16-FMp"/>
+                                    <constraint firstItem="AzQ-8I-d37" firstAttribute="top" secondItem="07f-mV-xcm" secondAttribute="top" id="NCP-0N-r4d"/>
+                                    <constraint firstItem="AzQ-8I-d37" firstAttribute="leading" secondItem="07f-mV-xcm" secondAttribute="leading" id="jxE-IR-S7W"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="07f-mV-xcm" secondAttribute="trailing" id="BQR-VM-pN2"/>
+                            <constraint firstItem="07f-mV-xcm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="TIK-CG-265"/>
+                            <constraint firstItem="07f-mV-xcm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WZA-7A-gol"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="07f-mV-xcm" secondAttribute="bottom" id="Zdi-9a-QDd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="那你他妈很棒哦" id="jOZ-G5-67b">
+                        <barButtonItem key="rightBarButtonItem" title="棒哦！" id="QMD-fv-9YZ">
+                            <connections>
+                                <action selector="uRSoFuckingGreatButtonPressed:" destination="BYZ-38-t0r" id="S1t-cy-VKc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="greatArmDrawingImageView" destination="AzQ-8I-d37" id="iLW-4n-RBd"/>
+                        <outlet property="greatDrawingConatiner" destination="07f-mV-xcm" id="1JC-v8-7gB"/>
+                        <segue destination="fV0-0b-roE" kind="push" identifier="pushToShowSoFuckingGreatImage" id="wxg-RU-pKT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="330"/>
+        </scene>
+        <!--那你他妈很棒哦！-->
+        <scene sceneID="5sE-6P-oTo">
+            <objects>
+                <viewController id="fV0-0b-roE" customClass="ShowSoFuckingGreatImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GMQ-oz-Qun"/>
+                        <viewControllerLayoutGuide type="bottom" id="vKh-XO-oFT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TjV-zR-wGj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HwF-Yr-Ypd">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HwF-Yr-Ypd" secondAttribute="trailing" id="78s-91-ff5"/>
+                            <constraint firstItem="HwF-Yr-Ypd" firstAttribute="top" secondItem="GMQ-oz-Qun" secondAttribute="bottom" id="AuW-YB-UwF"/>
+                            <constraint firstItem="vKh-XO-oFT" firstAttribute="top" secondItem="HwF-Yr-Ypd" secondAttribute="bottom" id="kgy-8j-cYU"/>
+                            <constraint firstItem="HwF-Yr-Ypd" firstAttribute="leading" secondItem="TjV-zR-wGj" secondAttribute="leading" id="qOD-QU-xeC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="那你他妈很棒哦！" id="EtI-fc-urC">
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="FEG-Zy-RgL">
+                            <connections>
+                                <action selector="saveImage:" destination="fV0-0b-roE" id="sXo-Tz-iaC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="soFuckingGreatImageView" destination="HwF-Yr-Ypd" id="V5S-I4-ECd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjg-6z-138" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1102" y="330"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qXA-8i-51t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Pb-Wv-Cgi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hEo-zg-afO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="c96-1q-CUg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5x7-y6-lg2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="330"/>
+        </scene>
+    </scenes>
+</document>
