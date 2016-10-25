@@ -152,7 +152,10 @@ inline CGRect GetWholeSoFuckingGreatImageRect(CGRect armRect,CGRect bodyRect,CGR
 }
 
 -(CGFloat)brush{
-    return _brush=MAX(GREAT_HAND_OUT_WIDTH,_brush-0.1);
+    if (GREAT_HAND_OUT_WIDTH<GREAT_BODY_OUT_WIDTH)
+        return _brush=MAX(GREAT_HAND_OUT_WIDTH,_brush-0.1);
+    else
+        return _brush=MIN(GREAT_HAND_OUT_WIDTH,_brush+0.1);
 }
 
 -(CGFloat)handRotateRadians{
